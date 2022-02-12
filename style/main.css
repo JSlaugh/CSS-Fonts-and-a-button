@@ -1,0 +1,102 @@
+:root {
+  /* Still water blue */
+  --still-water-blue: #1a759f;
+
+  /* Wave Blue */
+  --wave-blue: #03045e;
+  /* Island Sky */
+  --island-sky: #0f8ed8;
+  /* Sun Yellow */
+  --sun-yellow: #ffb703;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  color: #333;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.2;
+  margin: 0.5em 0 0.5em;
+  font-weight: 700;
+}
+
+h1 {
+  color: var(--wave-blue);
+  font-size: 3.5em;
+}
+
+h2 {
+  color: var(--still-water-blue);
+  font-size: 2.5em;
+}
+h3 {
+  color: #ffb703;
+  font-size: 2em;
+}
+
+p {
+  margin: 0 0 1em;
+}
+main {
+  margin: 0 auto;
+  max-width: 55rem;
+  padding: 0 1rem;
+}
+
+figure {
+  margin: 1rem 0;
+}
+
+dt {
+  font-weight: bold;
+}
+
+aside h2 {
+  color: #fff;
+}
+aside {
+  background-color: var(--island-sky);
+  color: #fff;
+}
+picture img {
+  width: 100%;
+}
+h2:hover {
+  color: #0087d4;
+}
+
+.button {
+  background-color: var(--still-water-blue);
+  color: #000;
+  padding: 1em 1.5em;
+  border: 0.15rem solid #ffb703;
+  transition: background-color 1000ms ease, color 1000ms ease;
+}
+
+.button:hover {
+  background-color: var(--wave-blue);
+  color: #fff;
+  border-radius: 24px;
+  transform: scale(1.2);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.form img {
+  width: 200px;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
